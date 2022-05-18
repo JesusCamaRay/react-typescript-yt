@@ -4,6 +4,7 @@ import { Form } from "./components/Form";
 import { Form2 } from "./components/Form2";
 import { TimerPadre } from "./components/TimerPadre";
 import { Usuario } from "./components/Usuario";
+import { Todo } from './todo-context/Todo';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <hr/>
       <Form/>
       <Form2/>
+      <hr/>
+      <Todo/>
     </>
   );
 }
